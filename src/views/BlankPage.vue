@@ -14,6 +14,20 @@
         <div class="bg-red-500 m-5 h-20 flex justify-center items-center">flex 6</div>
         <div class="bg-red-500 m-5 h-20 flex justify-end items-end">flex 7</div>
         <div class="bg-red-500 m-5 h-20 flex justify-end items-end">flex 8</div>
+        <div class="bg-red-500 m-5 h-20 flex justify-between items-center">
+            <span>child1</span>
+            <span>child2</span>
+            <span>child3</span>
+            <span>child4</span>
+            <span>child5</span>
+        </div>
+        <div class="bg-red-500 m-5 h-20 flex justify-around items-center">
+            <span>child1</span>
+            <span>child2</span>
+            <span>child3</span>
+            <span>child4</span>
+            <span>child5</span>
+        </div>
     </div>
 
     <div >grid</div>
