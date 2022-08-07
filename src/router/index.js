@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import BlankPage from '../views/BlankPage.vue'
+import flex from '../views/flex.vue'
+import Grid from '../views/Grid.vue'
 
 
 const router = createRouter({
@@ -21,6 +23,16 @@ const router = createRouter({
       path: '/blank',
       name: 'blank',
       component: BlankPage
+    },
+    {
+      path: '/flex',
+      name: 'flex',
+      component: flex
+    },
+    {
+      path: '/grid',
+      name: 'grid',
+      component: Grid
     }
   ]
 })

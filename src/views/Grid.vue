@@ -1,15 +1,19 @@
 <template>
 
-<header class="grid grid-cols-12 gap-4 h-16">
-        <div class="bg-blue-800/80  ">Logo</div>
-        <div>Menu1 Menu2 Menu3</div>
+<header class="grid grid-cols-12 gap-4 h-16 ">
+        <div class="bg-blue-800/80 h-full col-start-2 col-span-2 flex justify-start items-center">
+            <div>Logo</div>
+        </div>
+        <div class="bg-red-600 h-full col-start-7 col-span-5 flex justify-center items-center">
+            <div>Menu1 Menu2 Menu3</div>
+        </div>
     </header>
 
 
-    <main class="border-2 ">Content</main>
+    <main class="border-2 border-black">Content</main>
 
 
-    <footer>
+    <footer class="border-2 border-black">
         <div>Logo</div>
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aperiam illo eaque dolore quae aliquam quas corrupti, laboriosam ducimus sed quo porro et error beatae eum iste deserunt mollitia illum?</div>
         <div>
