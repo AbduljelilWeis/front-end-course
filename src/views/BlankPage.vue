@@ -1,7 +1,34 @@
 
 
 <template>
-    <header class="grid">
+    <div>this is a block</div>
+    <div>this is a block</div>
+    <span>this is a block</span>
+    <span>this is a block</span>
+    <div class="w-full h-85 bg-blue-400 ">
+        <div class="bg-red-500 m-5 h-20 flex justify-start items-start">flex 1</div>
+        <div class="bg-red-500 m-5 h-20 flex justify-end items-start">flex 2</div>
+        <div class="bg-red-500 m-5 h-20 flex justify-center items-start">flex 3</div>
+        <div class="bg-red-500 m-5 h-20 flex justify-start items-center">flex 4</div>
+        <div class="bg-red-500 m-5 h-20 flex justify-start items-end">flex 5</div>
+        <div class="bg-red-500 m-5 h-20 flex justify-center items-center">flex 6</div>
+        <div class="bg-red-500 m-5 h-20 flex justify-end items-end">flex 7</div>
+        <div class="bg-red-500 m-5 h-20 flex justify-end items-end">flex 8</div>
+    </div>
+
+    <div >grid</div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <header class="grid">
         <div class="text-4xl">Logo</div>
         <div>Menu1 Menu2 Menu3</div>
     </header>
@@ -29,10 +56,5 @@
                 <li>Page4</li>
             </ul>
         </div>
-    </footer>
-
-
-
-
-
+    </footer> -->
 </template>
